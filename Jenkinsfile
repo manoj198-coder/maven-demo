@@ -38,10 +38,10 @@ pipeline {
 
     post {
         success {
-            echo '✅ Jenkins pipeline executed successfully!'
+            echo ' Jenkins pipeline executed successfully!'
         }
         failure {
-            echo '❌ Jenkins pipeline failed. Check logs for details.'
+            echo ' Jenkins pipeline failed. Check logs for details.'
         }
     }
 }
